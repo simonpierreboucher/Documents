@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-11-30T08:40:31-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Welcome to Webrary",
+      "description": "This page puts at the disposal of all, the HTML, CSS and Java templates in order to develop your website. Here are the different types of templates according to their function\n",
+      "author": [],
+      "contents": "\nSocial media link website\nLink-1\nForum Website\nForum-1\nForum-2\nForum-3\nBlog Website\nBlog-1\nBlog-2\nBlog-3\nBlog-4\ne-Commerce Website\ne-Commerce-1\ne-Commerce-2\ne-Commerce-3\ne-Commerce-4\ne-Commerce-5\ne-Commerce-6\ne-Commerce-7\ne-Commerce-8\n\n\n\n",
+      "last_modified": "2022-11-30T08:53:08-05:00"
+    }
+  ],
+  "collections": []
+}

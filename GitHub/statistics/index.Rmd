@@ -1,0 +1,169 @@
+---
+title: "Table of contents"
+description: |
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+
+
+## Discrete Distributions
+
+
+
+<table>
+    <tr>
+        <td>oprule</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>\text{Notation}\footnotemark</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>F_X(x)</td>
+        <td>f_X(x)</td>
+        <td>\E{X}</td>
+        <td>\V{X}</td>
+        <td>M_X(s)</td>
+    </tr>
+    <tr>
+        <td>Uniform</td>
+        <td>\unifd</td>
+        <td>\punifd</td>
+        <td>\dunifd</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\frac{a+b}{2}</td>
+        <td>\frac{(b-a+1)^2-1}{12}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bernoulli</td>
+        <td>\bern</td>
+        <td>\pbern</td>
+        <td>\dbern</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>p</td>
+        <td>p(1-p)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Binomial</td>
+        <td>\bin</td>
+        <td>I_{1-p}(n-x,x+1)</td>
+        <td>\dbin</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>np</td>
+        <td>np(1-p)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Multinomial</td>
+        <td>\mult</td>
+        <td></td>
+        <td>\dmult \quad \sum_{i=1}^k x_i = n</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\end{array}} \right)</td>
+        <td>\left( {\begin{array}{*{20}{c}}</td>
+    </tr>
+    <tr>
+        <td>{n{p_1}(1 - {p_1})}</td>
+        <td>{ - n{p_1}{p_2}}</td>
+    </tr>
+    <tr>
+        <td>{ - n{p_2}{p_1}}</td>
+        <td>\ddots</td>
+    </tr>
+    <tr>
+        <td>\end{array}} \right)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Hypergeometric</td>
+        <td>\hyper</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\approx \Phi\left(\displaystyle\frac{x-np}{\sqrt{np(1-p)}}\right)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\dhyper</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\frac{nm}{N}</td>
+        <td>\frac{nm(N-n)(N-m)}{N^2(N-1)}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Negative Binomial</td>
+        <td>\nbin</td>
+        <td>\pnbin</td>
+        <td>\dnbin</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>r\frac{1-p}{p}</td>
+        <td>r\frac{1-p}{p^2}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Geometric</td>
+        <td>\geo</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\pgeo \quad x\in\mathbb N^+</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\dgeo \quad x\in\mathbb N^+</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\frac{1}{p}</td>
+        <td>\frac{1-p}{p^2}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Poisson</td>
+        <td>\pois</td>
+        <td>\ppois</td>
+        <td>\dpois</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>\lambda</td>
+        <td>\lambda</td>
+        <td></td>
+    </tr>
+</table>
+
+
+## Second
+content of sub-chapter #2
+
+## Third
+content of sub-chapter #3

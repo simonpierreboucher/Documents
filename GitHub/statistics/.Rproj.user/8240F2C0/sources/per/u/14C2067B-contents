@@ -1,0 +1,52 @@
+## Intalled r packages 
+install.packages("tidyverse")
+install.packages("stargazer")
+install.packages("medRV")
+install.packages("xts")
+install.packages("tseries")
+install.packages("lubridate")
+install.packages("nlme")
+install.packages("dyn")
+install.packages("rugarch")
+
+## Request r package already installed 
+library(xts)
+library(tidyverse)
+library(stargazer)
+library(xts)
+library(lubridate)
+library("highfrequency")
+library(tseries)
+library(rugarch)
+library(texreg)
+library("nlme")
+X=SPX_5min
+names(X)[1]<-"Date"
+names(X)[2]<-"Open"
+names(X)[3]<-"High"
+names(X)[4]<-"Low"
+names(X)[5]<-"Close"
+
+X$YEAR<-as.numeric(substr(X$Date,1,4))
+X$MONTH<-as.numeric(substr(X$Date,6,7))
+X$DAY<-as.numeric(substr(X$Date,9,10))
+X$HOUR<-as.numeric(substr(X$Date,12,13))
+X$MINUTE<-as.numeric(substr(X$Date,15,16))
+X$r_t1<-(X$Close-X$Open)/X$Open
+X$t<-X$HOUR*60+X$MINUTE
+
+
+reg=lm(X$r_t1~X$t)
+summary(reg)
+
+xx=reg$residuals
+y=ts(xx)
+
+# Specify a standard GARCH model with constant mean
+garchspec <- ugarchspec(mean.model = list(armaOrder = c(1,1)),
+                        variance.model = list(model = "sGARCH"), 
+                        distribution.model = "norm")
+
+# Estimate the model
+garchfit <- ugarchfit(data = yy, spec = garchspec)
+

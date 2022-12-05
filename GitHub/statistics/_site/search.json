@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-11-30T10:27:20-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Table of contents",
+      "author": [],
+      "contents": "\nDiscrete Distributions\n\noprule\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF_X(x)\n\n\nf_X(x)\n\n\n\n\n\n\n\n\nM_X(s)\n\n\nUniform\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBernoulli\n\n\n\n\n\n\n\n\n\n\n\n\n\np\n\n\np(1-p)\n\n\n\n\nBinomial\n\n\n\n\n\nI_{1-p}(n-x,x+1)\n\n\n\n\n\n\n\nnp\n\n\nnp(1-p)\n\n\n\n\nMultinomial\n\n\n\n\n\n\n\n_{i=1}^k x_i = n\n\n\n\n\n\\end{array}} )\n\n\n( {\n\\[\\begin{array}{*{20}{c}}<\/td>\n    <\/tr>\n    <tr>\n        <td>{n{p_1}(1 - {p_1})}<\/td>\n        <td>{ - n{p_1}{p_2}}<\/td>\n    <\/tr>\n    <tr>\n        <td>{ - n{p_2}{p_1}}<\/td>\n        <td>\\ddots<\/td>\n    <\/tr>\n    <tr>\n        <td>\\end{array}\\]\n} )\n\n\n\n\nHypergeometric\n\n\n\n\n\n\n\n()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNegative Binomial\n\n\n\n\n\n\n\n\n\n\n\n\n\nr\n\n\nr\n\n\n\n\nGeometric\n\n\n\n\n\n\n\nxN^+\n\n\n\n\nxN^+\n\n\n\n\n\n\n\n\n\n\n\n\nPoisson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond\ncontent of sub-chapter #2\nThird\ncontent of sub-chapter #3\n\n\n\n",
+      "last_modified": "2022-11-30T10:34:17-05:00"
+    }
+  ],
+  "collections": []
+}

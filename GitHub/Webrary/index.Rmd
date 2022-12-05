@@ -1,0 +1,51 @@
+---
+title: "Welcome to Webrary"
+description: |
+ This page puts at the disposal of all, the HTML, CSS and Java templates in order to develop your website. Here are the different types of templates according to their function
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+### Social media link website
+
+* [Link-1](https://bouchers090.github.io/web/link1/index.html)
+
+### Forum Website
+
+* [Forum-1](https://bouchers090.github.io/web/forum1/index.html)
+* [Forum-2](https://bouchers090.github.io/web/forum2/index.html)
+* [Forum-3](https://bouchers090.github.io/web/forum3/index.html)
+
+### Blog Website
+
+* [Blog-1](https://bouchers090.github.io/web/blog1/index.html)
+* [Blog-2](https://bouchers090.github.io/web/blog2/index.html)
+* [Blog-3](https://bouchers090.github.io/web/blog3/index.html)
+* [Blog-4](https://bouchers090.github.io/web/blog4/index.html)
+
+### e-Commerce Website
+
+* [e-Commerce-1](https://bouchers090.github.io/web/ecommerce1/index.html)
+* [e-Commerce-2](https://bouchers090.github.io/web/ecommerce2/index.html)
+* [e-Commerce-3](https://bouchers090.github.io/web/ecommerce3/index.html)
+* [e-Commerce-4](https://bouchers090.github.io/web/ecommerce4/index.html)
+* [e-Commerce-5](https://bouchers090.github.io/web/ecommerce5/index.html)
+* [e-Commerce-6](https://bouchers090.github.io/web/ecommerce6/index.html)
+* [e-Commerce-7](https://bouchers090.github.io/web/ecommerce7/index.html)
+* [e-Commerce-8](https://bouchers090.github.io/web/ecommerce8/index.html)
+
+### Admin Dashboard (CRM)
+
+* [admin-1](https://bouchers090.github.io/web/admin1/index.html)
+* [admin-2](https://bouchers090.github.io/web/admin2/index.html)
+* [admin-3](https://bouchers090.github.io/web/admin3/index.html)
+* [admin-4](https://bouchers090.github.io/web/admin4/index.html)
+* [admin-5](https://bouchers090.github.io/web/admin5/index.html)
+* [admin-6](https://bouchers090.github.io/web/admin6/index.html)
